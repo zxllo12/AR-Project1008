@@ -6,6 +6,17 @@ public class Player : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject.Destroy(gameObject);
+        if (collision.gameObject.tag == "Finish")
+        {
+            GameManager.Instance.RestartGame();
+        }
+        else if (collision.gameObject.tag == "Respawn")
+        {
+            GameManager.Instance.StartGame();
+        }
+        else
+        {
+            GameManager.Instance.GameOver();
+        }
     }
 }
