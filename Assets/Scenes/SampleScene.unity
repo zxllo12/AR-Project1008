@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faceManager: {fileID: 359983534}
-  nosePrefab: {fileID: 2315933288146924170, guid: 3496c0934cf55a942acd545cb4c7e6bd, type: 3}
+  nosePrefab: {fileID: 7801746151261398762, guid: 00e49bff70feab146993802e36e932d3, type: 3}
 --- !u!4 &155538024
 Transform:
   m_ObjectHideFlags: 0
